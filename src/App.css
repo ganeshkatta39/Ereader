@@ -64,3 +64,37 @@ body,
 	width: 100% !important;
 	height: 100% !important;
 }
+
+.reading-stats {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+
+	padding: 6px 12px;
+	border-radius: 6px;
+
+	font-size: 14px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.progress-bar-container {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 60%;
+	z-index: 10;
+}
+
+.progress-bar-container input {
+	width: 100%;
+	cursor: pointer;
+}
+
+.reading-stats:hover {
+	background: rgba(0, 0, 0, 0.9);
+}
