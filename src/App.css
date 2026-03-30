@@ -1,0 +1,66 @@
+html,
+body,
+#root {
+	height: 100%;
+	margin: 0;
+}
+
+.reader-container {
+	margin: auto;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background: #0f0f0f;
+	color: #eaeaea;
+}
+
+/* Controls bar */
+.controls {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 12px 16px;
+	background: var(--panel);
+	border-bottom: 1px solid var(--border);
+}
+
+/* Buttons */
+.controls button {
+	border: 1px solid var(--border);
+	color: var(--text);
+
+	padding: 6px 12px;
+	border-radius: 6px;
+
+	transition: all 0.2s ease;
+}
+
+/* Hover */
+.controls button:hover {
+	border-color: var(--accent);
+	color: var(--accent);
+}
+
+/* Click */
+.controls button:active {
+	transform: scale(0.95);
+}
+
+.viewer {
+	flex: 1;
+	width: 100%;
+	height: 100%;
+	background: white;
+	overflow: hidden;
+}
+
+.viewer iframe {
+	border: none;
+	background: white !important;
+}
+
+.viewer > div {
+	width: 100% !important;
+	height: 100% !important;
+}

@@ -1,0 +1,62 @@
+/* Modern CSS Reset */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Remove default margins */
+* {
+	margin: 0;
+}
+
+/* Body defaults */
+html,
+body,
+#root {
+	height: 100%;
+}
+
+/* Improve text rendering */
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/* Form elements inherit font */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Remove button default styles */
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+/* Avoid text overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
