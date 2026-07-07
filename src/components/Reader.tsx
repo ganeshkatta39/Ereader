@@ -33,7 +33,7 @@ export default function Reader() {
 	useEffect(() => {
 		if (!viewerRef.current) return;
 
-		const b = ePub("/The_Books_of_Earthsea.epub");
+		const b = ePub("/Shadows_of_Self_-_Brandon_Sanderson.epub");
 		setBook(b);
 
 		const r = b.renderTo(viewerRef.current, {
