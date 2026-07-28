@@ -33,7 +33,7 @@ export default function Reader() {
 	useEffect(() => {
 		if (!viewerRef.current) return;
 
-		const b = ePub("/Shadows_of_Self_-_Brandon_Sanderson.epub");
+		const b = ePub("/Brandon_Sanderson_-_Mistborn_06_-_The_Bands_of_Mourning.epub");
 		setBook(b);
 
 		const r = b.renderTo(viewerRef.current, {
