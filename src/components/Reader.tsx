@@ -33,7 +33,7 @@ export default function Reader() {
 	useEffect(() => {
 		if (!viewerRef.current) return;
 
-		const b = ePub("/Brandon_Sanderson_-_Mistborn_06_-_The_Bands_of_Mourning.epub");
+		const b = ePub("/Mistborn__Secret_History_Brandon_Sanderson.epub");
 		setBook(b);
 
 		const r = b.renderTo(viewerRef.current, {
