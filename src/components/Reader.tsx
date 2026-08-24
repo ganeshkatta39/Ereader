@@ -33,7 +33,7 @@ export default function Reader() {
 	useEffect(() => {
 		if (!viewerRef.current) return;
 
-		const b = ePub("/Mistborn__Secret_History_Brandon_Sanderson.epub");
+		const b = ePub("/The_Lost_Metal_-_Brandon_Sanderson.epub");
 		setBook(b);
 
 		const r = b.renderTo(viewerRef.current, {
