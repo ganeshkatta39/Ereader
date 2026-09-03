@@ -33,7 +33,7 @@ export default function Reader() {
 	useEffect(() => {
 		if (!viewerRef.current) return;
 
-		const b = ePub("/The_Lost_Metal_-_Brandon_Sanderson.epub");
+		const b = ePub("/The_Once_and_Future_King_-_T_H_White.epub");
 		setBook(b);
 
 		const r = b.renderTo(viewerRef.current, {
