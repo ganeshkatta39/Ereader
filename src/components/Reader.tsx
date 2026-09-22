@@ -33,7 +33,7 @@ export default function Reader() {
 	useEffect(() => {
 		if (!viewerRef.current) return;
 
-		const b = ePub("/Catch-22.epub");
+		const b = ePub("/Between_Two_Fires_--_Christopher_Buehlman.epub");
 		setBook(b);
 
 		const r = b.renderTo(viewerRef.current, {
