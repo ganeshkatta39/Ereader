@@ -33,7 +33,7 @@ export default function Reader() {
 	useEffect(() => {
 		if (!viewerRef.current) return;
 
-		const b = ePub("/Between_Two_Fires_--_Christopher_Buehlman.epub");
+		const b = ePub("/Yellow_face-R_F_Kuang.epub");
 		setBook(b);
 
 		const r = b.renderTo(viewerRef.current, {
