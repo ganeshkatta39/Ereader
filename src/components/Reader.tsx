@@ -33,7 +33,7 @@ export default function Reader() {
 	useEffect(() => {
 		if (!viewerRef.current) return;
 
-		const b = ePub("/Yellow_face-R_F_Kuang.epub");
+		const b = ePub("/The_Book_Thief.epub");
 		setBook(b);
 
 		const r = b.renderTo(viewerRef.current, {
