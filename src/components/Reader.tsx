@@ -33,7 +33,7 @@ export default function Reader() {
 	useEffect(() => {
 		if (!viewerRef.current) return;
 
-		const b = ePub("/The_Book_Thief.epub");
+		const b = ePub("/Catch-22.epub");
 		setBook(b);
 
 		const r = b.renderTo(viewerRef.current, {
